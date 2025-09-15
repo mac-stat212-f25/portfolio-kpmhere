@@ -1,0 +1,18 @@
+
+---
+title : "ICA 1 Kupakwashe Mhere"
+---
+```{r}
+library(tidyverse)
+weather <- read_csv("https://mac-stat.github.io/data/sfo_weather.csv")
+```
+
+```{r}
+library(dplyr)
+library(tidyr)
+```
+
+
+
+
+`
