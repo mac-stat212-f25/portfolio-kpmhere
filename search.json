@@ -65,6 +65,17 @@
     ]
   },
   {
+    "objectID": "src/ica/ICA1.html",
+    "href": "src/ica/ICA1.html",
+    "title": "ICA 1 Kupakwashe Mhere",
+    "section": "",
+    "text": "Codelibrary(tidyverse)\nweather &lt;- read_csv(\"https://mac-stat.github.io/data/sfo_weather.csv\")\n\n\n\nCodelibrary(dplyr)\nlibrary(tidyr)\n\n\n`",
+    "crumbs": [
+      "In-Class Activities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>ICA 1 Kupakwashe Mhere</span>"
+    ]
+  },
+  {
     "objectID": "src/appx/appx-sample1.html",
     "href": "src/appx/appx-sample1.html",
     "title": "Appendix A — Appendix Sample 1",
