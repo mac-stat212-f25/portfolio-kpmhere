@@ -74,6 +74,7 @@ book:
       - src/ica/ica-sample1.qmd
       - src/ica/ica-sample2.qmd
       - src/ica/ICA1.qmd
+      - src/ica/ICA2.qmd
 
   appendices:
   - src/appx/appx-sample1.qmd
