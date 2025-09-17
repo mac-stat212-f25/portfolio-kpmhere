@@ -1,0 +1,52 @@
+---
+title: "ICA2 Kupakwashe Mhere"
+format: html
+---
+
+```{r}
+library(ggplot2)
+library(tidymodels)
+library(tidyr)
+library(tidyverse)
+```
+
+
+```{r}
+data(diamonds)
+diamonds <- diamonds |> 
+    slice_head(n = 1000)
+```
+
+```{r}
+# 1
+moneydiamonds400 <- diamonds %>%
+  filter(price<400)
+```
+
+```{r}
+# 2
+moneydiamonds500600 <- diamonds %>%
+  filter(price>500, price<600) 
+```
+
+```{r}
+# 3
+moneydiamondscut <- diamonds %>%
+filter(cut == c("Fair", "Premium", "Ideal"))
+```
+
+```{r}
+moneydiamondscut <- diamonds %>%
+filter(cut %in% c("Fair", "Premium", "Ideal"))
+```
+
+```{r}
+#4 
+
+```
+
+
+
+
+
+
